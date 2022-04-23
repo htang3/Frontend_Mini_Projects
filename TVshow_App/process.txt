@@ -1,0 +1,7 @@
+1. Set up the three file HTML/CSS/JS
+2. Apply basic styling for HTML file. 
+3. Javascript, functionalities:
+# First, show the initial movies results when user enter the page.
+# Second, GETMOVIE API, CREATE MOVIE, SEARCH MOVIE
+# Third, get responses and populate the website with image, title, rating and description.
+# Fourth, apply CSS style for final result.
