@@ -222,6 +222,10 @@ button {
   overflow-y: auto;
   transition: transform 0.1s ease-in;
 }
+.website a {
+  text-decoration: none;
+  color: var(--third-color);
+}
 .show:hover .website {
   transform: translateY(0);
 }

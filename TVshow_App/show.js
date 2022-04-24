@@ -11,7 +11,7 @@ const getTvShow = async (url) => {
   console.log(initialShowDisplayData.data);
   makeShowCard(initialShowDisplayData.data);
 };
-
+getTvShow(INITIAL_API);
 const makeShowCard = async (arrayOfShows) => {
   mainctn.innerHTML = "";
   arrayOfShows.forEach((eachShow) => {
