@@ -1,4 +1,5 @@
 const header = document.querySelector(".header");
+const liContact = document.querySelector("#contactID");
 
 window.addEventListener("scroll", scrollNav);
 function scrollNav() {
@@ -10,7 +11,10 @@ function scrollNav() {
   }
 }
 const btnContact = document.querySelector("#contact");
-
-btnContact.addEventListener("click", (e) => {
-  document.querySelector("form").scrollIntoView({ behavior: "smooth" });
+const arrayContact = [btnContact, liContact];
+console.log(btnContact, liContact);
+arrayContact.forEach((contact) => {
+  contact.addEventListener("click", (e) => {
+    document.querySelector("form").scrollIntoView({ behavior: "smooth" });
+  });
 });
