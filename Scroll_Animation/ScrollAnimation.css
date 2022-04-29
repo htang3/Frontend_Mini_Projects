@@ -1,0 +1,30 @@
+body {
+  background-color: #e2dcde;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main div {
+  background-color: rgb(49, 111, 111);
+  border-radius: 5%;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  /* use both justify-content and align-items to center text */
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+div:nth-of-type(2n) {
+  transform: translateX(-400%);
+}
+div.show {
+  transform: translateX(0);
+}
+div h2 {
+  color: #eee;
+  font-size: 2rem;
+}
